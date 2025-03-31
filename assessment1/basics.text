@@ -1,0 +1,6 @@
+1. Hoisting: Variable and function declarations are moved to the top of their scope before code execution 
+2. Closures: A closure is an inner function that has access to the outer function's variables even after the outer funciton has returned
+3. Dynamic typing: Vriables in Javascript can hold values of different types different times without type declarations
+4. Template literals: Strings that allow embedded expressions and multiline text using backticks.
+5. Concurrency: In JavaScript refers to the ability to manage multiple tasks seemingly simultaneously, even though js is fundamentally single-threaded. 
+   This is achieved through mechanisms like the event loop, asynchronous operations (Promises, async/await), and Web Workers
