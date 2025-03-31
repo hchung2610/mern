@@ -308,7 +308,6 @@ console.log(`Product of numbers from 1 to ${num}: `, result);
     Object Prototype (Prototype Chain):
         Every object in JavaScript has a prototype. When we access a property or method on an object, 
         JavaScript looks up the prototype chain until it finds it (or reaches null) */
-        // Constructor function for a Person.
     function Animal(name) {
         this.name = name;
     }
@@ -328,7 +327,7 @@ console.log(`Product of numbers from 1 to ${num}: `, result);
         lastName: "Doe"
     };
 
-    // person inherits from Object.prototype
+    // person5 inherits from Object.prototype
     console.log(person5.hasOwnProperty("firstName")); // Output: true
     console.log(person5.hasOwnProperty("toString")); // Output: false (because toString is on Object.prototype)
     console.log(person5.toString()); // Output: [object Object] (because toString is on Object.prototype)
