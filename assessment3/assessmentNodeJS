@@ -1,0 +1,35 @@
+//Assessment #2 - NodeJS and ReactJs - 30th April
+
+//NodeAPI
+//1. Explain your knowledge of - statelessness, http, REST, spa and classical applications
+
+/* Statelessness means each request from a client makes to the sever contains all the needed information to understand and process it; however,
+the server does not retain any session-specific dat bettween requests. 
+
+Http is a hypetext transfer protocol, which is used to transfer data over the web. It works as a request-response protocal: clients send 
+requests (verbs like GET, POST, PUT, DELETE) to server rs (URLs, servers reply with status codes and payloads).
+
+REST is standing for representaional state transfer, which is an architectural style for designing networked applications. 
+
+spa is a single page application, which loads a single HTML page and dynamically updates the content as the user interacts with the app.
+
+classical applications are traditional web applications that reload the entire page when navigating between different sections or views.
+*/
+
+//2. Create an express setup, with a capability to expose end points for restful api
+//3. Create an API with name CreateUser as get verb and pass user info such as name, session, address and age as query param
+//4. Save the information passed in #3 to a json file name userInfo in local
+
+//React
+//5. create a webpack setup, index html and one css file to show css in next questions (can use app.css from our project)
+//6. how react renders dom in conservative manner - explain, also explain 
+
+/* Answer:  React updates the real DOM by computing differences between previous and next virtual DOM tree.
+Only the minimal necessary changes are applied to the real DOM avoiding costly full tree re-renders */
+
+//7. create a class component named - Success and show some quotes (messages) in it with h1,h2,h3 components
+//8. create a functional component SuccessChild, make it child of Success and pass Name and Address to it from Success
+//9. create SuccessStory as another component, pass this as props in SuccessChild from Success component
+//10. explain how virtual dom works and how it is coupled with state updates and state update API's
+
+/* Answer: Virtual Dom is a light-weight version and in memory representation of real DOM. Simply say it is a JavaScript object t hat mirrors the UI. So, instead of updating the real DOM directly (which is slow), React use the Virtual DOM to efficiently batch and minimize update to reduce the cost. This reconciliation process is driven by the state update APIs and is optimized by lifecycle methods (e.g., `shouldComponentUpdate`) and hooks (e.g., `useEffect`) to avoid unnecessary work. */
